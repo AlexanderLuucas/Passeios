@@ -1,3 +1,4 @@
+@import url (https://fonts.googleapis.com/css2?family=Bebas+Neue)
 /* Arquivo responsável pelos estilos */
 /* Aula 24/04/2023 - Estilos do Menu */
 body, ul {
@@ -60,8 +61,8 @@ body, ul {
 }
 #carouselExampleInterval img {
     height: auto;
+    width: 100%;
 }
-
 /*CSS Estilo Banner */
 .section-banner-home {
     width: 100%;
@@ -92,5 +93,47 @@ body, ul {
     text-decoration: none;
     background-color:rgb(247, 4, 4);
     padding: 4px 14px;
-    font-size: 15px;
-} 
+    font-size: 15px;    
+}
+/* Fim css estilos Banner */
+
+/* Início css destaques */ 
+
+.destaque h2 {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.destaque p {
+    width: 77%;
+    text-align: center;
+    font-size: 14px;
+    margin: 30px auto;
+}
+.destaque figcaption {
+    font-size: 13px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+.destaque a {
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color: #303df4;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 30px 0;
+}
+.destaque a:hover{
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    transition:0.3s;
+    text-shadow: 4px 4px 6px rgb(250, 103, 103);
+
+}
+.destaque img {
+    height: 300px;
+}
