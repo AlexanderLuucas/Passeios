@@ -1,4 +1,4 @@
-@import url (https://fonts.googleapis.com/css2?family=Bebas+Neue)
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue);
 /* Arquivo responsável pelos estilos */
 /* Aula 24/04/2023 - Estilos do Menu */
 body, ul {
@@ -53,16 +53,27 @@ body, ul {
 #btn-mobile {
     display: none;
 }
+.carousel-inner .carousel-item img{
+    width: 100%;
+    margin: auto;
+    max-height: 900px;
+    padding-top: 85px;
+}
+
+
 #carouselExampleInterval{
     position: relative;
     z-index: 10;
-    padding-top: 75px;
+    padding-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#carouselExampleInterval carousel-inner img {
+    max-height: 550px;
     width: 100%;
 }
-#carouselExampleInterval img {
-    height: auto;
-    width: 100%;
-}
+
+
 /*CSS Estilo Banner */
 .section-banner-home {
     width: 100%;
@@ -83,6 +94,8 @@ body, ul {
     font-size: 30px;
     width: 60%;
     padding-bottom: 20px;
+    color: ;
+    text-shadow: 2px 2px 4px #0000007a;
 }
 .section-banner-home .texto-banner p {
     font-size: 15px;
@@ -92,7 +105,7 @@ body, ul {
     color: rgb(245, 245, 245);
     text-decoration: none;
     background-color:rgb(247, 4, 4);
-    padding: 4px 14px;
+    padding: 4px 4px;
     font-size: 15px;    
 }
 /* Fim css estilos Banner */
@@ -104,6 +117,7 @@ body, ul {
     text-align: center;
     font-size: 24px;
     font-weight: bold;
+    text-shadow: 2px 2px 4px #0000007a; 
 }
 .destaque p {
     width: 77%;
