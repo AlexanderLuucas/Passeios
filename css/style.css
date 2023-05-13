@@ -94,7 +94,7 @@ body, ul {
     font-size: 30px;
     width: 60%;
     padding-bottom: 20px;
-    color: ;
+    color: #000;
     text-shadow: 2px 2px 4px #0000007a;
 }
 .section-banner-home .texto-banner p {
@@ -151,3 +151,100 @@ body, ul {
 .destaque img {
     height: 300px;
 }
+/* Fim CSS Destaque */
+
+/* Início CSS Novidades */
+
+.novidades .text-body {
+    width: 80%;
+    margin: 70px auto;
+}
+
+.novidades h2 {
+    color: #000;
+}
+
+.novidades p {
+    color: rgb(0, 0, 0);
+}
+
+.novidades a {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    text-decoration-color: violet;
+    padding: 6px 12px;
+    background-color: rgb(0, 68, 194);
+    font-weight: 400;
+}
+/* Fim CSS Novidades */
+/* Início CSS Galeria */
+
+.galeria {
+    margin: 60px 20px 20px 50px;
+}
+/*  Quando tivermos 4 valores no margin = top / right / botton / left
+    Ex.: margin: 60px 60px 60px 60px;
+    Quando tivermos 3 valores = top / right and left / botton
+    Ex.: margin: 60px auto 60px;
+    Quando tivermos 2 valores = top and botton / right and left
+    Ex.: margin: 60px 30px;
+    Quando tivermos 1 valor = top, botton, left and right
+    Ex.: margin: 60px; 
+    Essa regra tambem vale para padding.*/
+
+.galeria .container{
+    margin-left: 14.5%;
+}
+
+.galeria h2 {
+    text-align: center;
+    font-size: 24px;
+}
+.galeria p {
+    text-align: center;
+    width: 50%;
+    margin: 14px auto 50px;
+}
+
+.galeria .gallery {
+    width: 30%;
+    margin: 14px auto 40px;
+}
+.galeria .gallery img{
+    width: 80%;
+    height: 80% ;
+}
+/* Fim CSS Galeria */
+
+/* Inicio CSS Footer*/
+
+.rodape {
+    padding: 50px 50px 0;
+}
+.rodape .container img {
+    height: 150px;
+}
+.rodape .info-contato p {
+    margin: 0;
+}
+.rodape a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+}
+.rodape a:hover {
+    font-weight: bold;
+}
+.rodape .redes-sociais{
+    display: inline-block;
+}
+.rodape .redes-sociais img {
+    width: 45px;
+    height: 40px;
+}
+.rodape p.direitos {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Fim CSS Footer*/
