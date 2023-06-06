@@ -21,9 +21,10 @@ body, ul {
     transition: 0.3s;
     text-shadow: 3px 3px 5px #000000;
 }
-#logo rodape:hover {
+#logo img:hover {
     box-shadow: 4px 4px 6px #ffd724;
     transition: 0.3s;
+    border-radius: 1.5em;
 }
 #logo img {
     float: left;
@@ -43,6 +44,7 @@ body, ul {
     align-items: center;
     justify-content: space-between;
     background: #71c0ee;
+    box-shadow: 6px 6px 6px #6b6b6b;
 }
 #menu {
     display: flex;
@@ -58,18 +60,21 @@ body, ul {
     max-height: 850px;
     padding-top: 10px;
 }
-
-
 #carouselExampleInterval{
     position: relative;
     z-index: 10;
     padding-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
+    margin-bottom: 10px;
+    box-shadow: 6px 6px 6px #6b6b6b;
+    transition: 0.3s;
+    width: 100%;
+    display: inline-flex;
 }
 #carouselExampleInterval carousel-inner img {
-    max-height: 550px;
-    width: 100%;
+    height: auto;
+    width: 90%;
 }
 
 @media (max-width: 600px) {
@@ -312,8 +317,16 @@ body, ul {
 .rodape a {
     text-decoration: none;
     color: #000;
-    font-size: 13px;
+    font-size: 14px;
 }
+.rodape .link_rodape {
+    text-decoration: none;
+    color: #000;
+    font-size: 14.5px;
+    margin-left: 0.15rem; /*espaçamento palavras*/
+    padding-left: 0.1rem; /*deslocamento palavras*/
+}
+
 .rodape a:hover {
     font-weight: bold;
 }
@@ -321,8 +334,17 @@ body, ul {
     display: inline-block;
 }
 .rodape .redes-sociais img {
-    width: 47px;
+    width: 48px;
     height: 47px;
+    padding-left: 0;
+    margin-left: 0.45rem; /*espaçamento figuras*/
+    transition: transform .3s;
+    /*border-radius: 25px; /* Arredondando div do objeto redes sociais*/;
+}
+.rodape .redes-sociais img:hover {
+    z-index: 1;
+    transform: scale(1.4);  
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.446);*/
 }
 .rodape p.direitos {
     text-align: center;
@@ -485,7 +507,7 @@ body, ul {
 /* Inicio Whatsapp */
 .whatsapp {
     position: fixed;
-    z-index: 2;
+    z-index: 200;
     top: 100px;
     right: 20px;
 }
